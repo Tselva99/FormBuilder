@@ -1,0 +1,274 @@
+*{margin:0px;padding:0px;}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{margin-left:0px;margin-right:0px;}
+.row{margin-left:0px;margin-right:0px;}
+
+
+.bg{
+    /* background-color: rgba(0, 0, 0, 0.309); */
+    height: 100%;
+    padding: 0px;
+
+}
+.preview{
+    /* background-color:beige; */
+    height:100vh;
+    flex:70%;
+
+    /* box-shadow: 2px 2px 2px black; */
+}
+.fieldHead{
+    background-color: rgba(169, 165, 165, 0.119);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -8px;
+}
+.toolBotn{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(168, 15, 15);
+    border-radius: 4px;
+    margin: 3px;
+    height: 40px;
+    width: 120px;
+    text-shadow: 1px 1px 2px 2px darkseagreen;
+
+}
+.toolBotn:hover{
+    /* background-color: rgba(141, 31, 31, 0.474); */
+    border:1px dotted rgba(238, 24, 24, 0.324); 
+    color: brown;
+}
+.CA{
+    /* background-color: beige; */
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.463);
+}
+.DropBOX{
+    background-color: rgba(0, 0, 0, 0.207);
+}
+.Para_text{
+   display: inline;
+   text-align: center;
+   justify-content: center;
+
+
+   border-bottom: 2px solid rgba(0, 0, 0, 0.463);
+   
+
+}
+.inputbox{ 
+ height: 40px;
+ width: 500px;
+ outline: none;
+ 
+}
+::-webkit-input-placeholder{
+    color: rgb(171, 162, 162);
+    font-size:large;
+}
+.firstLine{
+    background-color: rgba(245, 245, 220, 0.153);
+      padding: 10px;
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.editfuction{
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    background-color: rgba(51, 51, 203, 0.297);
+    color: black;
+    border: none;
+}
+.editfuction:focus{
+    border:2px dotted blue;
+    /* background-color: rgb(63, 63, 195); */
+}
+
+.firstLine1{
+    background-color: rgba(245, 245, 220, 0.153);
+    padding: 10px;
+    display: flex;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.APPLYvIEW{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstLine1 #hidden{
+    display: flex;
+}
+input{
+    margin: 30px;
+}
+#no{
+    margin-right: 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+/* #userIcon{
+    position: absolute;
+    top:19%;
+ margin-left: -18px;
+    
+} */
+#emailIcon{
+    position: relative;
+     margin-left: -18px;
+     margin-right: 3px;
+     
+    
+}
+@media only screen and (max-width:1050px){
+    label{
+        font-size: 10px;
+
+    }
+}
+@media only screen and (max-width:850px){
+    label{
+        font-size: 10px;
+
+    }
+    .toolBotn{
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(168, 15, 15);
+        border-radius: 4px;
+        margin: 3px;
+        height: 40px;
+        width: 120px;
+        text-shadow: 1px 1px 2px 2px darkseagreen;
+    
+    }
+}
+@media only screen and (max-width:650px){
+    #no{
+        font-size: 7px;
+    }
+    label{
+        font-size: 10px;
+
+    }
+    .toolBotn p{
+        font-size: 10px;
+    }
+    #emailIcon{
+   /* height: 100px; */
+   /* width: 200px; */
+   /* position: absolute; */
+   /* top:30%; */
+   /* margin-left: -18px; */
+        
+    }
+    .preview{
+       flex: 100%;
+    }
+    .ToolSet{
+        width: 100%;
+    }
+    
+}
+.ToolSet{
+    justify-content: center;
+    align-items: center;
+}
+.form_outline{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.326);
+}
+.previewBox:hover{
+    border: 4px dotted rgba(168, 15, 15, 0.481);
+    border-left: 6px solid rgba(168, 15, 15, 0.422) ;
+    background-color:rgba(162, 56, 56, 0.075) ;
+}
+#formName{
+    /* height: 20px; */
+  
+    border: none;
+    /* font-size: 80px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline:none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.176);
+}
+#formName::-webkit-input-placeholder{
+    color: rgb(170, 161, 161);
+    font-size:large;
+    text-align: center;
+}
+.editpage{
+    background-color: rgba(0, 255, 255, 0.261);
+    height: 90vh;
+    width: 60%;
+    display: none;
+
+}
+.EditButton{
+    display: none;
+}
+.S_L_sizebutton{
+    width: 30%;
+    border: 2px dotted rgba(17, 0, 255, 0.493);
+}
+/* .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  } */
+ .M_line_edit{
+    /* display: none; */
+ }

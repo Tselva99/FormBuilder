@@ -1,0 +1,127 @@
+.formCreatePage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    height: 100vh;
+}
+.formFields{
+    height: 50px;
+    width: 400px;
+    border: none;
+    outline: none;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+.toolsDrop{
+    /* display: none; */
+}
+.dropbox{
+  
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.197);
+
+}
+
+ #dropIcon{
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 20px;
+    width: 40px;
+}
+.tools{
+    margin-top: 400px;
+    flex: 20%;
+    margin-left: 0 auto;
+    margin-left: -90px;
+    width: 20%;
+    
+}
+@media only screen and (max-width:950px){
+    .formCreatePage.tools{
+        margin-top:0px;
+        
+    }
+    @media only screen and (max-width:1200px){
+        .toolsList1{
+            border: 2px solid darkcyan;
+            margin: 2px;
+            border-radius: 10px;
+            height: 10px;
+            padding: 3px;
+            width: 70px;
+            text-align: center;
+        }
+        .toolsList2{
+            border: 2px solid darkcyan;
+            margin: 5px;
+            border-radius: 10px;
+            height: 10px;
+            padding: 3px;
+            width: 70px;
+            text-align: center;
+        }
+
+    }
+}
+/* .firstLine{
+    background-color: rgba(245, 245, 220, 0.153);
+      padding: 10px;
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+.firstLine h5{
+    display: inline;
+    margin-top: 10px;
+    margin: 20px;
+    font-size: 9px;
+    text-align: center;
+}
+.toolsList1{
+    border: 2px solid darkcyan;
+    margin: 5px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 7px;
+    width: 130px;
+    text-align: center;
+}
+.toolsList2{
+    border: 2px solid darkcyan;
+    margin: 5px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 7px;
+    width: 130px;
+    text-align: center;
+}
+.formPreview{
+    background-color: rgb(19, 213, 213);
+    padding: 3px;
+    flex: 35%;
+    box-shadow: 1px 2px 2px black;
+  height: 100vh;
+}
+.applyDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:  40px;
+    
+
+}
+.properties{
+    background-color: rgb(93, 19, 213);
+    padding: auto;
+    text-align: center;
+    height: 100vh;
+    box-shadow: 1px 2px 2px black;
+    flex: 35%;
+
+}

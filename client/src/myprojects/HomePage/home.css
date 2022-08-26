@@ -1,0 +1,103 @@
+
+.homePage{
+    /* background-image: url("homeIMage.webp"); */
+    /* background-color:beige; */
+
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.form_title{
+    margin-top: 0px;
+    margin-bottom: 20px;
+   text-align: center;
+   
+   
+}
+.form_title h1{
+    color: rgb(79, 50, 40);
+    text-shadow: 1px 1px 2px black ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form_title h4{
+    color: rgb(132, 54, 66);
+    text-shadow: 1px 1px 2px black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width:650px){
+    .form_title h1{
+        font-size: larger;
+      
+    }
+    .form_title h4{
+      font-size: small; }
+      .form_title.text_content p{
+        font-size: 12px;
+
+      }
+      .form_title.text_content h2{
+        font-size: 12px;
+         
+      }
+      #SeconSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:30px;
+     
+      }
+   
+}
+/* @media only screen and (max-width:450px){
+    .image_control_1{
+        height: 50px;
+        width: 230px;
+        margin-top: 30px;}
+     
+  #carouselId{
+    height: 0px;
+    width: 230px;
+    margin-top: 40px;
+
+  
+
+}
+} */
+.image-control{
+    height: 300px;
+    width: 90vw;
+
+}
+
+.makeForm{
+    height: 170px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:60px ;
+    margin-top: 25px;
+}
+.Plusicon{
+    height: 100px;
+    width: 100px;
+}
+.secondPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+ 
+}
+.text_content{
+    margin: 9px;
+}
+.Plusicon:hover{
+    color:rgb(181, 42, 42)
+}

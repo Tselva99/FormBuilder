@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<script language=javascript> 
+function make_bLiveEmail(zz) 
+	{ 
+		document.getElementById(zz).innerHTML = '<input type="text" name="EmailAddress" size="25" > @example.net - simply enter the first part of the email address.<br /><br /><input type="text" name="ConfirmEmailAddress" size="25"> @example.net - Please enter your choice again.'; 
+	} 
+	function make_cEmail(zz) 
+	{ 	
+		document.getElementById(zz).innerHTML = '<input type="text" name="EmailAddress"  size="25"> Please provide your current email address.<br /><br /><input type="text" name="ConfirmEmailAddress"  size="25"> Please confirm your current email address.'; 
+	} 
+
+</script>
+
+</head>
+<body onload="make_bLiveEmail('eAddress');">
+<form action="#" method="post" name="form2" id="form2">
+
+Would you like a &quot;@example.net&quot; email account?<br /><br />
+
+                        <input name="option" type="radio" onclick="make_bLiveEmail('eAddress');" value="Yes" checked="checked" />
+                        Yes<br />
+                        <input type="radio" name="option" value="No" onclick="make_cEmail('eAddress');" />
+                        No 
+                        <div id="eAddress"></div>
+              </form>
+</body>
+</html>
